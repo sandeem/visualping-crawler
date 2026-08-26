@@ -9,7 +9,7 @@ PATTERN = re.compile(r"VISUALPING\{[0-9a-fA-F]{16}\}")
 
 # Hard cap so a query-string explosion can never make the crawl run forever.
 # Bump this (1000, 2000, ...) to crawl deeper — more pages = more passwords.
-MAX_URLS = 600
+MAX_URLS = 1000
 
 
 def same_host(url):

@@ -1,0 +1,23 @@
+{
+  "name": "visualping-project",
+  "version": "1.0.0",
+  "description": "A web crawler that discovers all hidden passwords on a password-protected target site, implemented with Playwright (Node).",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeem/visualping-crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeem/visualping-crawler/issues"
+  },
+  "homepage": "https://github.com/sandeem/visualping-crawler#readme",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}
